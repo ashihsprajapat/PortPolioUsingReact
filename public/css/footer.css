@@ -1,0 +1,33 @@
+
+.skillSection {
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.skillSection:hover {
+    transform: scale(1.05);
+    align-items: center;
+    padding:0.3rem;
+    border-radius: 1rem;
+    border-top: 3px solid black;
+    border-left: 3px solid green;
+    border-right: 3px solid green;
+    border-bottom: 3px solid green;
+}
+
+.skillIcon {}
+
+.skillValue:hover {
+    
+}
+
+.footerIcons a i {
+
+    color: black;
+    opacity: 0.8;
+}
+
+.footerIcons a i:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}

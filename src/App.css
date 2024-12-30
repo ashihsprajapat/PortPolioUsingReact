@@ -1,0 +1,73 @@
+.logoNavbar {
+    width: 5rem;
+    clip-path: circle(36.4% at 50% 50%);
+    margin: 0%;
+}
+
+.logoSection {
+    align-items: center;
+    justify-content: center;
+}
+
+.container-fluid {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footerIcons {
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.menu {
+    color: black;
+    opacity: 0.7;
+    margin-left: 7rem;
+}
+
+.menu:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.selected {
+    color: red !important;
+    opacity: 0.7;
+    text-decoration: underline;
+}
+
+.selected:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.educationSection:hover {
+    cursor: pointer;
+}
+
+.instaProfile {
+
+    border-radius: 5% !important;
+}
+
+.instatCard {
+    height: 2rem !important;
+}
+
+footer {
+    background-color: #d7c8c8;
+    color: rgb(16, 14, 14);
+
+    display: flex;
+    text-align: center;
+    height: 8rem !important;
+    background-color: rgb(174, 171, 171);
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+
+    bottom: 0;
+    width: 100%;
+}
