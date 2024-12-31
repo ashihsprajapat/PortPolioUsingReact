@@ -4,7 +4,7 @@ function Massage() {
     let styleSkill={display:"flex",}
     return (
         <div className="container row">
-            <div className="container col-lg-5 col-md-6 col-sm-11  p-5 m-1 ">
+            <div className="container col-lg-5 col-md-5 col-sm-11  p-5 m-1 ">
                 <h1>Skills</h1>
                 <div className="row">
                     <div style={styleSkill} className='skillSection' >
@@ -33,11 +33,11 @@ function Massage() {
                     </div>
                 </div>
             </div>
-            <div className="container col-lg-6 mt-5 mb-5  p-2 col-md-6 col-sm-11 ">
+            <div className="container col-lg-6 mt-5 mb-5  p-2 col-md-5 col-sm-12 ">
                 <h4>Can drop a Message</h4>
-                <div className='col-lg-12 col-sm-10'>
+                <div className='col-lg-12 col-sm-11 col-md-11'>
                     <form class="row g-3 needs-validation" novalidate>
-                        <div class="col-sm-9 col-lg-11 col-md-8">
+                        <div class="col-sm-9 col-lg-11 col-md-11">
                             <label for="validationCustom01" class="form-label">Email</label>
                             <input type="email" class="form-control " id="validationCustom01" required />
                             <div class="valid-feedback">
@@ -45,7 +45,7 @@ function Massage() {
                             </div>
                         </div>
 
-                        <div class="col-sm-9 col-lg-11 col-md-8">
+                        <div class="col-sm-9 col-lg-11 col-md-11">
                             <label for="validationCustomUsername" class="form-label">Username</label>
                             <textarea type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required rows={4} />
                             <div class="invalid-feedback">

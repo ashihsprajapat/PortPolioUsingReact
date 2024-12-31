@@ -27,6 +27,7 @@ let Navbar = () => {
                             <Link className={activeMenu == 0 ? activitclass : menuClass} to="/" onClick={() => handleMenuClick(0)}  >Home</Link>
                             <Link className={activeMenu == 1 ? activitclass : menuClass} to="/about" onClick={() => handleMenuClick(1)} >About me</Link>
                             <Link className={activeMenu == 3 ? activitclass : menuClass} to='/project' onClick={() => handleMenuClick(3)} >Projects</Link>
+                            <Link className={activeMenu == 4 ? activitclass : menuClass} to='/work' onClick={() => handleMenuClick(4)} >Work</Link>
                         </div>
                     </div>
                 </div>

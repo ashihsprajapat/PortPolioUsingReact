@@ -8,19 +8,17 @@ function Footer() {
                 <div className="col-12 footerIcons " >
                     <center>
                         <a href="https://www.instagram.com/ashish_coder_44/profilecard/?igsh=MWZldmM4YmJhdnUwMA==" target="_blank">
-                            <i className="fa-brands fa-square-instagram" style={style} ></i></a>
+                            <i className="fa-brands fa-square-instagram" style={{...style,color:"red"}} ></i></a>
                         <a href="https://www.whatsapp.com/channel/0029VabVHVy1iUxeVcK5iz24"  target="_blank">
-                            <i className="fa-brands fa-square-whatsapp" style={style}></i></a>
-                        <a href="https://www.linkedin.com/in/ashish-prajapat-528710288/" target="_blank" ><i className="fa-brands fa-linkedin" style={style}></i></a>
+                            <i className="fa-brands fa-square-whatsapp" style={{...style,color:"green"}}  ></i></a>
+                        <a href="https://www.linkedin.com/in/ashish-prajapat-528710288/" target="_blank" ><i className="fa-brands fa-linkedin" style={{...style,color:"blue"}}></i></a>
                         <a href="">
-                            <i className="fa-brands fa-youtube" style={style}></i>
+                            <i className="fa-brands fa-youtube" style={{...style,color:"red"}}></i>
                         </a>
                         <a href="https://t.me/Its_Ashish_prajapat" target="_blank">
-                            <i className="fa-brands fa-telegram" style={style}></i>
+                            <i className="fa-brands fa-telegram" style={{...style,color:"blue"}}></i>
                         </a>
-                        <a href="">
-                            <i className="fa-solid fa-phone " style={style}></i>
-                        </a>
+                       
 
                     </center>
                 </div>
