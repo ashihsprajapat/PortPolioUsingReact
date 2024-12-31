@@ -3,6 +3,9 @@
     clip-path: circle(36.4% at 50% 50%);
     margin: 0%;
 }
+nav{
+    background-color: rgb(236, 225, 209);
+}
 
 .logoSection {
     align-items: center;
@@ -48,7 +51,6 @@
 }
 
 .instaProfile {
-
     border-radius: 5% !important;
 }
 
@@ -57,13 +59,12 @@
 }
 
 footer {
-    background-color: #d7c8c8;
+    background-color: rgb(236, 225, 209);
     color: rgb(16, 14, 14);
 
     display: flex;
     text-align: center;
     height: 8rem !important;
-    background-color: rgb(174, 171, 171);
     flex-wrap: wrap;
     justify-content: center;
     align-items: space-evenly;

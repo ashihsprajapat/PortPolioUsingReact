@@ -13,7 +13,7 @@ let Navbar = () => {
     return (
         <>
 
-            <nav className="navbar navbar-expand-lg navbar-expand-sm bg-body-tertiary border-bottom ">
+            <nav className="navbar navbar-expand-lg navbar-expand-sm  border-bottom ">
                 <div className="container-fluid  ">
                     <a className="navbar-brand  logoSection row " href="/">
                         <img src="/logo.jpg" alt="logo Image" className=' logoNavbar col-5 ' />

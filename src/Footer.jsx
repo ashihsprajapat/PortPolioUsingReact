@@ -3,7 +3,7 @@ function Footer() {
     let style = { fontSize: "2rem", margin: "1rem" }
     let styleLink = { textDecoration: "none", marginLeft: "2rem" }
     return (
-        <footer>
+        <footer className=''>
             <div className="row border-top">
                 <div className="col-12 footerIcons " >
                     <center>
