@@ -1,11 +1,14 @@
-import React from 'react';
+import WavingHandIcon from '@mui/icons-material/WavingHand';
 function Hero() {
     let details = ["web developer", "B.Tech Student", "MERN Developer", "FreeLencer"];
     return (
         <div className="container pt-5">
+            
             <div className="row">
                 <div className="col-lg-6 col-sm-12 col-md-6 p-3">
-                    <h1> Hi, I am  <br />
+                    <h1> Hi {<span className="wave" role="img" aria-labelledby="wave">👋🏻</span>}, I am
+                        
+                        <br />
                         &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
                         <span style={{ color: "purple" }}> Ashish Prajapat</span>  </h1>
                     <h3 className='pt-1'>I am a &nbsp;

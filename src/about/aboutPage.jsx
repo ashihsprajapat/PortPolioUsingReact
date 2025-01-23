@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Hero from './Hero.jsx';
 import Education from './Education';
 import Profiles from './profile';
