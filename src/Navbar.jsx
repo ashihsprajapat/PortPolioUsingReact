@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-
+import ConnectWithoutContactIcon from '@mui/icons-material/ConnectWithoutContact';
 
 
 import { HomeIcon } from './iconNavbar';
@@ -23,10 +23,10 @@ let Navbar = () => {
 
             <nav className="navbar navbar-expand-lg navbar-expand-sm sticky-top  border-bottom ">
                 <div className="container-fluid  ">
-                    <a className="navbar-brand  logoSection row " href="/">
-                        <img src="/logo.jpg" alt="logo Image" className=' logoNavbar col-5 ' />
-                        <h4 className='col-4' >Ashish</h4>
-                    </a>
+                    {/* <a className="navbar-brand  logoSection row " href="/"> */}
+                    <img src="/logo.jpg" alt="logo Image" className=' logoNavbar col-5 ' /> &nbsp;
+                    <h4 className='col-4' >Ashish</h4>
+                    {/* </a> */}
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -42,8 +42,8 @@ let Navbar = () => {
                                 <ProjectIcon color="danger" />
                                 Projects</Link>
                             <Link className={activeMenu == 4 ? activitclass : menuClass} to='/work' onClick={() => handleMenuClick(4)} >
-                                <WorkIcon color="danger" />
-                                Work</Link>
+                                <ConnectWithoutContactIcon color="danger" />
+                                Contect</Link>
                         </div>
                     </div>
                 </div>
