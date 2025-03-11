@@ -73,12 +73,12 @@ function Skills() {
                                 <CardContent>
 
                                     <Typography variant="h5" style={{ display: "flex" }} component="div">
-                                        <JavascriptIcon style={{ fontSize: "2rem" }} />
+                                    <i className="fa-brands fa-js"></i> &nbsp;
                                         <Typography sx={{ color: 'text.secondary', mb: 1.5 }}>JavaScript</Typography>
                                     </Typography>
                                     {skills[1].show == true &&
                                         <Typography variant="body2">
-                                            <h5>{finalDiff} year's of expreience</h5>
+                                            <Button variant="text">{finalDiff} year's of expreience</Button>
                                         </Typography>}
                                 </CardContent>
 
@@ -95,9 +95,10 @@ function Skills() {
                                         <Typography sx={{ color: 'text.secondary', mb: 1.5 }}>Java</Typography>
                                     </Typography>
                                     {skills[2].show == true &&
-                                    <Typography variant="body2">
-                                        <h5>{finalDiff} year's of expreience</h5>
-                                    </Typography>}
+                                        <Button variant="text">
+                                            <Typography variant="body2">
+                                                {finalDiff} year's of expreience
+                                            </Typography></Button>}
                                 </CardContent>
 
                             </React.Fragment>
@@ -113,10 +114,11 @@ function Skills() {
                                         <Typography sx={{ color: 'text.secondary', mb: 1.5 }}>Node.js</Typography>
                                     </Typography>
                                     {skills[3].show == true &&
-                                    <Typography variant="body2">
-                                        <h5>{finalDiff} year's of expreience</h5>
-                                    </Typography>
-}
+                                        <Button variant="text">
+                                            <Typography variant="body2">
+                                                {finalDiff} year's of expreience
+                                            </Typography></Button>
+                                    }
                                 </CardContent>
 
                             </React.Fragment>
@@ -133,9 +135,12 @@ function Skills() {
 
                                     </Typography>
                                     {skills[4].show == true &&
-                                    <Typography variant="body2">
-                                        <h5>{mernDiff} year's of expreience</h5>
-                                    </Typography>}
+                                        <Button variant="text">
+                                            <Typography variant="body2">
+
+                                                {mernDiff} year's of expreience
+                                            </Typography>
+                                        </Button>}
                                 </CardContent>
 
                             </React.Fragment>
@@ -152,21 +157,23 @@ function Skills() {
 
                                     </Typography>
                                     {skills[5].show == true &&
-                                    <Typography variant="body2">
-                                        <h5>{mernDiff} year's of expreience</h5>
-                                    </Typography> }
+                                        <Button variant="text">
+                                            <Typography variant="body2">
+                                                {mernDiff} year's of expreience
+                                            </Typography>
+                                        </Button>}
                                 </CardContent>
 
                             </React.Fragment>
                         </Card>
                     </Box>
 
-                </div>
+                </div >
 
 
 
 
-            </div>
+            </div >
         </>
     );
 }

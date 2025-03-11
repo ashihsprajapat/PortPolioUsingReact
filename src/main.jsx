@@ -9,22 +9,27 @@ import ProjectPage from './project/projectPage.jsx'
 import HomePage from './home/HomePage.jsx'
 import PageNotFound from './PageNotFound.jsx'
 import WorkPage from './work/workPage.jsx'
+ import { AppContextProvider } from './context/AppContext.jsx'
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    
+
     <BrowserRouter>
-        <Navbar />
+     
+      {/* <AppContextProvider> */}
+      <Navbar />
         <Routes>
           <Route path='/' element={<HomePage />} />
-          <Route path='/project' element={<ProjectPage/>}/>
-          <Route path='/about' element={<AboutPage/>}/>
-          <Route path='/work' element={<WorkPage/>}/>
-          <Route path='/*' element={<PageNotFound/>}/>
+          <Route path='/project' element={<ProjectPage />} />
+          <Route path='/about' element={<AboutPage />} />
+          <Route path='/work' element={<WorkPage />} />
+          <Route path='/*' element={<PageNotFound />} />
         </Routes>
         <Footer />
-      </BrowserRouter>
+      {/* </AppContextProvider> */}
+      
+    </BrowserRouter>
   </StrictMode>,
 )

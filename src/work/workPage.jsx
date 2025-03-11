@@ -1,10 +1,11 @@
 import React from 'react';
+import Meeting from './meeting';
 function WorkPage() {
-    return ( 
+    return (
         <div className="container">
-            <h2>Not have any work Now</h2>
+            <Meeting />
         </div>
-     );
+    );
 }
 
 export default WorkPage;
